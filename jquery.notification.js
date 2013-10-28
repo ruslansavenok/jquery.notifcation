@@ -12,8 +12,8 @@
     classClose: "notifications__item-close",
     content: "Empty Notification",
     animationSpeed: 300,
-    autoHideIn: 5000,
-    topPos: "10%",
+    autoHideIn: 5000,   // Set false to disable auto hide
+    topPos: "10%",      // Any value, that jQuery.animate("top", val) could undersntan OR function with $notification as an argument.
     template: function () {
       return "<div class='" + this.classWrapper + "'>" +
               "<div class='" + this.classItem + "'>" +
