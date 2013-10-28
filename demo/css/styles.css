@@ -1,0 +1,43 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+}
+ol, ul {list-style: none;}
+:focus {outline: 0;}
+input, button { padding: 0; margin: 0;}
+::-moz-focus-inner{padding:0;border:0}  /* fix firefox input bug */
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+body {
+  font: 13px/1.28 Arial;
+  background: #F0F0F0;
+}
+.wrapper {
+  width: 960px;
+  margin: 50px auto;
+}
+.btn-container {
+  margin: 30px 0;
+  text-align: center;
+}
+.btn-container button {
+  font-size: 36px;
+  padding: 8px;
+}
